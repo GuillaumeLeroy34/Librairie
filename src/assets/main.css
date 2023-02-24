@@ -40,12 +40,15 @@ button {
     background: linear-gradient(#27ae60, #2ecc71);
   }
   
-  
+  hr{
+    border: none;
+    border-top: 5px solid #00481d;
+    margin: 15px 0;
+  }
   
 
-button::-moz-focus-inner {
-  border: 0;
-}
+
+
 button,
 input,
 optgroup,
@@ -54,8 +57,8 @@ textarea {
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
-  margin: 0;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin: 0; 
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
   
 }
 button,

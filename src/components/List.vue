@@ -168,9 +168,8 @@ function handlerSearchWithName(name) {
         <button id="boutonTest" @click="getListeLivres">actualiser la liste:</button>
         <div>
             <RechercheLivre @getL="handlergetLivre" id @searchL="handlerSearchWithName" name></RechercheLivre>
-
-
         </div>
+        <hr>
         <LivreForm @addL="handlerAddLivre"> </LivreForm>
         <ul>
             <ItemListe v-for="a of listeL" :key="a.id" :Livre="a" @modL="handlerModifierLivre" a
